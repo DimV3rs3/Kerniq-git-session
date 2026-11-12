@@ -1,0 +1,13 @@
+plugin_id = "plugin_git_session"
+name = "Git session"
+version = "0.1.0"
+api_version = "1.0"
+manifest_version = "1.0"
+entry_point = "main.PluginImpl"
+description = "Commits workspace changes at the end of a run and can roll back one file or the whole session."
+capabilities = ["tools"]
+author = "Kerniq"
+license = "MIT"
+
+[tools]
+expose_to_agent = true
